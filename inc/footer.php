@@ -1,43 +1,14 @@
-<footer class="bg-dark text-white mt-4 p-3">
-  <div class="container">
-    <div class="row">
-      <section class="col-12 col-md-6 pr-5">
-        <h4>Inscreva-se</h4>
-        <p>Acompanhe todas as novidades, textos, notícias e dicas que postamos</p>
-            <form action="" method="post">
-            <div class="form-group">
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Insira seu email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="senha" placeholder="Insira sua senha" aria-describedby="passwordHelp">
-            </div>
-            <button class="btn btn-primary rounded float-right" type="buttom">Buscar</button>
-          </form>
-      </section>
-      <section class="col-12 col-md-3 text-center">
-        <h4>Menu</h4>
-        <div class="list-group-item bg-dark border-0 p-0">
-          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Roteiros</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Cidades</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">História</a>
-        </div>
-      </section>
-      <section class="col-12 col-md-3 text-center">
-        <h4>Social</h4>
-        <div class="btn-group-vertical btn-block btn-group-sm" role="group">
-          <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook-square"></i>Facebook</a>
-          <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter-square"></i>Twitter</a>
-          <a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram"></i>Instagram</a>
-        </div>
-      </section>
-      <section class="col-12 mt-5">
-        <blockquote class="blockquote text-center">
-          <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim asperiores mollitia odit fugi</p>
-          <p class="blockquote-footer">Lorem Ipsum <cite title="Source Title">Fundador do Mundo</cite></p>
-
-        </blockquote>
-      </section>
+<footer class="container-fluid mt-5 mb-0 mx-0 pt-5 px-0">
+  <div class="bg-dark text-white mx-0 p-5">
+    <div class="d-flex flex-column align-items-center text-center">
+      <div class="col-3 btn-group-vertical btn-group-sm" role="group">
+        <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter-square"></i>Twitter</a>
+        <a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram"></i>Instagram</a>
+      </div>
+    </div>
+    <div class="d-flex flex-row flex-nowrap justify-content-center mt-3">
+      <small>desLoja &copy; | CNPJ 01.012.012/0001-99 | <a href="#" title="Políticas e Termos" data-toggle="modal" data-target="#modalPoliticas">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções" data-toggle="modal" data-target="#modalTrocas">Trocas e Devoluções</a></small>
     </div>
   </div>
 </footer>

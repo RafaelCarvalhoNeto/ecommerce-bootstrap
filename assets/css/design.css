@@ -1,12 +1,7 @@
-.reducao img{
-    height: 475px;
-    width: 800px;
-    filter: brightness(0.5);
-}
-
 .bg-success{
     background-color: #a5c15d;
 }
+/*
 h2::before{
     content: "";
     height: 45px;
@@ -28,7 +23,7 @@ h2::after{
     top: 0;
     right: 30px;
     bottom: 0;
-}
+}*/
 
 .textcarro{
     flex-direction: column;
@@ -63,7 +58,9 @@ h2::after{
 }
 
 .avancar:hover{
-    transform: scale(1.05)
+    transform: scale(1.05);
+    box-shadow: #000;
+
 }
 
 i[class*="fa"] {
@@ -77,6 +74,14 @@ i[class*="fa"] {
 .produto{
     height: 500px;
 }
-.teste{
-    height: 140px;
+
+a,
+/* Links ativos */
+a:active,
+/* Links quando passamos o mouse sobre eles */
+a:hover,
+/* E links já visitados */
+a:visited {
+    text-decoration: none;
+    /* Remove o underline padrão */
 }

@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-md-5">
             <div>
-                <img class="d-block w-100 .produto" src="./assets/img/cerva3.png" alt="">
+                <img class="d-block w-100 .produto" src="./assets/img/produto10.png" alt="">
             </div>
         </div>
         <div class="col-md-7 my-3">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="form-group col-md-12 p-0">
-                    <button type="submit" class="mx-auto my-2 btn btn-warning btn-lg btn-block">Comprar</button>
+                    <button type="submit" class="mx-auto my-2 btn btn-warning btn-lg"><i class="fas fa-shopping-cart"></i>Comprar</button>
                 </div>
             </form>
         </div>
@@ -156,6 +156,159 @@
     </div>
 
 </section>
-
+    <div class="container">
+        <section class="row">
+            
+            <h2 class="col-12 p-3 mt-5 mb-3 text-uppercase"><i class="fas fa-comment"></i>Produtos</h2>
+            <div id="carrosselRoteiros" class="carousel slide" data-ride="carousel">
+    
+                <div class="carousel-inner">
+                    <ol class="carousel-indicators carrosel-de-vendas">
+                        <li data-target="#carrosselRoteiros" data-slide-to="0" class="bg-dark active"></li>
+                        <li data-target="#carrosselRoteiros" data-slide-to="1" class="bg-dark"></li>
+                    </ol>
+    
+                    
+                    <div class="carousel-item active">
+                        <div class="row">
+    
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto9.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Spot Popper - Esprema o nariz nojento</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto10.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Urso Esqueleto - Veja um urso por dentro</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto11.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Pegador de salgados - O mais moderno</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto12.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto13.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Spot Popper - Esprema o nariz nojento</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto14.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Urso Esqueleto - Veja um urso por dentro</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto15.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Pegador de salgados - O mais moderno</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto16.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    </div>
 <!-- TRAZ O FOOTER -->
 <?php require_once("./inc/footer.php"); ?>

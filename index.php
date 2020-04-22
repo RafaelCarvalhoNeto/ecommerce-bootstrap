@@ -7,9 +7,9 @@
     <div class="row bg-dark text-white">
 
         <!-- Carrossel Bootstrap -->
-        <div class="col-lg-7 p-0">
+        <div class="col-lg-12 p-0">
             <div id="carrosselBootstrap" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators movecarousel1">
                     <li data-target="#carrosselBootstrap" data-slide-to="0" class="active"></li>
                     <li data-target="#carrosselBootstrap" data-slide-to="1"></li>
                     <li data-target="#carrosselBootstrap" data-slide-to="2"></li>
@@ -17,39 +17,23 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="reducao">
-                            <img class="d-block w-100" src="./assets/img/placeholder-02-08.jpg" alt="First slide"> 
-                        </div>
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Pirâmides</h5>
-                            <p>This is a wider card with supporting text</p>
+                        <div>
+                            <img class="d-block w-100" src="./assets/img/banner4.png" alt="First slide"> 
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="reducao">
-                            <img class="d-block w-100" src="./assets/img/placeholder-02-09.jpg" alt="Second slide"> 
-                        </div>
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Pôr-do-Sol</h5>
-                            <p>This is a wider card with supporting text</p>
+                            <img class="d-block w-100" src="./assets/img/banner3.png" alt="Second slide"> 
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="reducao">
-                            <img class="d-block w-100" src="./assets/img/placeholder-02-10.jpg" alt="Third slide"> 
-                        </div>
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Cairo Tower</h5>
-                            <p>This is a wider card with supporting text</p>
+                            <img class="d-block w-100" src="./assets/img/banner2.png" alt="Third slide"> 
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="reducao">
-                            <img class="d-block w-100" src="./assets/img/placeholder-02-11.jpg" alt="Fourth slide"> 
-                        </div>
-                        <div class="carousel-caption d-none d-sm-block">
-                            <h5>Esfinge</h5>
-                            <p>This is a wider card with supporting text</p>
+                            <img class="d-block w-100" src="./assets/img/banner1.png" alt="Fourth slide"> 
                         </div>
                     </div>
                 </div>
@@ -64,25 +48,6 @@
                 </a>
             </div>
         </div>
-
-        <!--TEXTO LATERAL-->
-        <div class="col-lg-5 p-4 d-flex textcarro">
-            <div>
-                <h1 class="display-4">Explore o inacreditável Egito</h1>
-                <p class="lead pb-4">Terras dos faraós, de belezas naturais de cair o queixo.</p>
-            </div>
-            <div>
-                <form action="">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Lugares" aria-label="Lugares">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="buttom">Buscar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>    
-            
-        </div>
     </div>
 </section>
 
@@ -91,98 +56,149 @@
     <!--ROTEIROS-->
     <section class="row">
             
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white paragrafo"><i class="fas fa-comment"></i>Roteiros</h2>
+        <h2 class="col-12 p-3 mt-5 mb-3 text-uppercase"><i class="fas fa-comment"></i>Produtos</h2>
         <div id="carrosselRoteiros" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner">
                 <ol class="carousel-indicators carrosel-de-vendas">
-                    <li data-target="#carrosselRoteiros" data-slide-to="0" class="active"></li>
-                    <li data-target="#carrosselRoteiros" data-slide-to="1" ></li>
+                    <li data-target="#carrosselRoteiros" data-slide-to="0" class="bg-dark active"></li>
+                    <li data-target="#carrosselRoteiros" data-slide-to="1" class="bg-dark"></li>
                 </ol>
+
+                
                 <div class="carousel-item active">
                     <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto X1</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto9.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Spot Popper - Esprema o nariz nojento</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#comida</span></a>
-                                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#passeio</span></a>
-                                </div>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto X2</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto10.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Urso Esqueleto - Veja um urso por dentro</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <span class="badge badge-pill badge-info">PROMO</span>
-                                </div>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto Y1</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto11.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Pegador de salgados - O mais moderno</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <span class="badge badge-pill badge-info">PROMO</span>
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto12.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto X4</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto13.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Spot Popper - Esprema o nariz nojento</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#comida</span></a>
-                                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#passeio</span></a>
-                                </div>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto X5</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto14.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Urso Esqueleto - Veja um urso por dentro</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <span class="badge badge-pill badge-info">PROMO</span>
-                                </div>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3 avancar">
-                                <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
-                                <div class="card-body bg-success text-white">
-                                    <h4 class="card-title">Produto Y7</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto15.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Pegador de salgados - O mais moderno</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                                <div class="card-footer bg-success text-white">
-                                    <span class="badge badge-pill badge-info">PROMO</span>
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <a href="produto.php">
+                                <div class="card mb-3 avancar">
+                                    <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                        <img src="./assets/img/produto16.png" width=140px height=140px>  
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                                    </div>
+                                    <div class="card-footer d-flex flex-row justify-content-between">
+                                        <p class="preco">R$ 99,00</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -191,94 +207,122 @@
         </div>
     </section>
 
-    <!--CIDADES-->
+    <!--PROMOÇÕES-->
     <section id="catY" class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white" ><i class="fas fa-city"></i>Cidades</h2>
+        <h2 class="col-12 p-3 mt-5 mb-3 text-uppercase text-dark" ><i class="fas fa-city"></i>Promoções</h2>
 
         <div class="card-deck">
-            <div class="card avancar">
-                <!-- TESTE -->
-                <div class="card-header bg-success text-white text-center">
-                    <h5>Promoção</h5>
+                <div class="card avancar">
+                    <a href="produto.php">
+                        <div class="card-header bg-success text-white text-center">
+                            <h5>Promoção</h5>
+                        </div>
+                        <div class="card-img-top d-flex justify-content-center p-4">
+                            <img src="./assets/img/produto5.png" alt="Card image cap" width=140px heigh=140px>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text descricao">Maiô Thanos do último filme dos Vingadores</p>
+                            <p class="mt-2 mb-0 preco">R$ 99,00</p>
+                        </div>
+                    </a>
                 </div>
 
-                <img class="card-img teste1" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Produto Y1</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
+            
             <div class="card avancar">
-                <div class="card-header bg-danger text-white text-center">
-                    <h5>5% de Desconto</h5>
-                </div>
-                <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Produto Y2</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="produto.php">
+                    <div class="card-header bg-danger text-white text-center">
+                        <h5>5% de Desconto</h5>
+                    </div>
+                    <div class="card-img-top d-flex justify-content-center p-4">
+                        <img src="./assets/img/produto6.png" alt="Card image cap" width=140px heigh=140px>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text descricao">Máquina de lavar super potencia de jato de água</p>
+                        <p class="preco">R$ 99,00</p>
+                    </div>
+                </a>
             </div>
+            
+
             <div class="card avancar">
-                <div class="card-header bg-warning text-white text-center">
-                    <h5>Frete Grátis</h5>
-                </div>
-                <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Produto Y3</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="produto.php">
+                    <div class="card-header bg-warning text-white text-center">
+                        <h5>Frete Grátis</h5>
+                    </div>
+                    <div class="card-img-top d-flex justify-content-center p-4">
+                        <img src="./assets/img/produto7.png" alt="Card image cap" width=140px heigh=140px>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text descricao">Fantasia de centauro egípcio para dedos</p>
+                        <p class="preco">R$ 99,00</p>
+                    </div>
+                </a>
             </div>
+
+
+            <div class="card avancar">
+                <a href="produto.php">
+                    <div class="card-header bg-info text-white text-center">
+                        <h5>Exclusivo</h5>
+                    </div>
+                    <div class="card-img-top d-flex justify-content-center p-4">
+                        <img src="./assets/img/produto8.png" alt="Card image cap" width=140px heigh=140px>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text descricao">Metade de um copo de cerveja gelado</p>
+                        <p class="preco">R$ 99,00</p>
+                    </div>
+                </a>
+            </div>
+
+
         </div>
     </section>
 
-    <!--DEPOIMENTOS-->
+    <!--OFERTAS-->
     <section class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white"><i class="fas fa-feather-alt"></i>Depoimentos</h2>
+        <h2 class="col-12 p-3 mt-5 mb-3 text-uppercase text-dark"><i class="fas fa-feather-alt"></i>Ofertas</h2>
         <div class="row">
-            <div class="col-md-6 col-sm-12 avancar">
-                <div class="row bg-warning text-dark m-0 mb-3" style="align-items:center">
+            <div class="col-md-6 col-sm-12">
+                <div class="row bg-info text-dark m-0 mb-3 avancar" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
-                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                        <img class="p-2 d-block w-100" src="./assets/img/mercha1.png" alt="">
                     </div>
-                    <div class="p-3 col-lg-6 col-md-12">
-                        <h4>Título</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <div class="p-3 col-lg-6 col-md-12 text-white">
+                        <h4>Melhores fantasias de homem-aranha</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 avancar">
-                <div class="row bg-warning text-dark m-0 mb-3" style="align-items:center">
+            <div class="col-md-6 col-sm-12">
+                <div class="row bg-danger text-white m-0 mb-3 avancar" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
-                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                        <img class="p-2 d-block w-100" src="./assets/img/mercha2.png" alt="">
                     </div>
                     <div class="p-3 col-lg-6 col-md-12">
-                        <h4>Título</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <h4>Gaste todo seu dinheiro aqui</h4>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6 col-sm-12 avancar">
-                <div class="row bg-warning text-dark m-0  mb-3" style="align-items:center">
+            <div class="col-md-6 col-sm-12">
+                <div class="row bg-warning text-dark m-0 mb-3 avancar" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
-                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                        <img class="p-2 d-block w-100" src="./assets/img/mercha3.png" alt="">
                     </div>
                     <div class="p-3 col-lg-6 col-md-12">
-                        <h4>Título</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <h4 class="card-text">Melhores jogos de tabuleiro do planeta</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 avancar">
-                <div class="row bg-warning text-dark m-0  mb-3" style="align-items:center">
+            <div class="col-md-6 col-sm-12">
+                <div class="row bg-secondary text-white m-0 mb-3 avancar" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
-                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                        <img class="p-2 d-block w-100" src="./assets/img/mercha4.png" alt="">
                     </div>
                     <div class="p-3 col-lg-6 col-md-12">
-                        <h4>Título</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <h4>Todas as mascaras de proteção roubadas pelos USA</h4>
                     </div>
                 </div>
             </div>
@@ -289,104 +333,78 @@
      
     </section>
 
-    <!--HISTÓRIA-->
-    <section class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white"><i class="fas fa-book"></i>História</h2>
-
-        <div id="carrosselHistoria" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <ol class="carousel-indicators">
-                    <li data-target="#carrosselHistoria" data-slide-to="0" class="active"></li>
-                    <li data-target="#carrosselHistoria" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-item active">
-                    <div class="col-12 p-0">
-                        <div class="d-lg-flex bg-info text-white d-sm-block">
-                            <div>
-                                <img class="d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="" >
-                            </div>
-                            <div class="p-3 d-flex" style="flex-direction:column; justify-content: space-around">
-                                <h4>Título</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit itaque necessitatibus repudiandae accusamus quam, quae rerum vero, unde suscipit, pariatur est numquam dolor esse iste odit? Vitae esse est repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias id quia itaque unde, in aliquid nostrum corrupti vitae distinctio, soluta iste inventore neque. Voluptas beatae placeat aperiam exercitationem delectus consectetur?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="col-12 p-0">
-                        <div class="d-lg-flex bg-light text-dark d-sm-block">
-                            <div>
-                                <img class="d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="" >
-                            </div>
-                            <div class="p-3 d-flex" style="flex-direction:column; justify-content: space-around">
-                                <h4>Título</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit itaque necessitatibus repudiandae accusamus quam, quae rerum vero, unde suscipit, pariatur est numquam dolor esse iste odit? Vitae esse est repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias id quia itaque unde, in aliquid nostrum corrupti vitae distinctio, soluta iste inventore neque. Voluptas beatae placeat aperiam exercitationem delectus consectetur?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="row">
-        <div class="col-12 mt-5 mb-3">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex repellat temporibus ea hic eveniet sit cum architecto alias atque, accusamus, exercitationem ipsa sunt magnam eum consectetur ratione? Sed, labore.
-            </div>
-            
-        </div>
-
-    </section>
-
-
     <section class="row">
             
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Roteiros</h2>
+        <h2 class="col-12 p-3 mt-5 mb-3 text-uppercase">Mais Procurados</h2>
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
-                    <div class="card-body bg-success text-white">
-                        <h4 class="card-title">Produto X1</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-6 col-md-3">
+                <a href="produto.php">
+                    <div class="card mb-3 avancar">
+                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                            <img src="./assets/img/produto1.png" width=140px height=140px>  
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text descricao">Spot Popper - Esprema o nariz nojento</p>
+                        </div>
+                        <div class="card-footer d-flex flex-row justify-content-between">
+                            <p class="preco">R$ 99,00</p>
+                            <p class="m-0"><span class="badge badge-pill badge-success">#promoção</span></p>
+                        </div>
                     </div>
-                    <div class="card-footer bg-success text-white">
-                        <a href="#" class="card-link"><span class="badge badge-pill badge-info">#comida</span></a>
-                        <a href="#" class="card-link"><span class="badge badge-pill badge-info">#passeio</span></a>
-                    </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
-                    <div class="card-body bg-success text-white">
-                        <h4 class="card-title">Produto X2</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-6 col-md-3">
+                <a href="produto.php">
+                    <div class="card mb-3 avancar">
+                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                            <img src="./assets/img/produto2.png" width=140px height=140px>  
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text descricao">Urso Esqueleto - Veja um urso por dentro</p>
+                        </div>
+                        <div class="card-footer d-flex flex-row justify-content-between">
+                            <p class="preco">R$ 99,00</p>
+                            <p class="m-0"><span class="badge badge-pill badge-success">#promoção</span></p>
+                        </div>
                     </div>
-                    <div class="card-footer bg-success text-white">
-                        <span class="badge badge-pill badge-info">PROMO</span>
-                    </div>
-                </div>
+               </a>
             </div>
 
-            <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
-                    <div class="card-body bg-success text-white">
-                        <h4 class="card-title">Produto Y1</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="col-sm-6 col-md-3">
+                <a href="produto.php">
+                    <div class="card mb-3 avancar">
+                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                            <img src="./assets/img/produto3.png" width=140px height=140px>  
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text descricao">Pegador de salgados - O mais moderno</p>
+                        </div>
+                        <div class="card-footer d-flex flex-row justify-content-between">
+                            <p class="preco">R$ 99,00</p>
+                            <p class="m-0"><span class="badge badge-pill badge-info">#exclusivo</span></p>
+                        </div>
                     </div>
-                    <div class="card-footer bg-success text-white">
-                        <span class="badge badge-pill badge-info">PROMO</span>
-                    </div>
-                </div>
+                </a>
             </div>
+            
+            <div class="col-sm-6 col-md-3">
+                <a href="produto.php">
+                    <div class="card mb-3 avancar">
+                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                            <img src="./assets/img/produto4.png" width=140px height=140px>  
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                        </div>
+                        <div class="card-footer d-flex flex-row justify-content-between">
+                            <p class="preco">R$ 99,00</p>
+                            <p class="m-0"><span class="badge badge-pill badge-warning">#frete grátis</span></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
     </section>
 
