@@ -110,9 +110,6 @@ a:visited {
     width: 15px;
     border: 2px solid #fff;
 }
-#teste{
-    background-color: blue;
-}
 
 .carrosel-de-vendas {
     bottom: -15px !important;
@@ -123,4 +120,16 @@ a:visited {
 }
 .carousel-indicators{
     border-radius: 50%;;
+}
+.promo{
+    color: grey;
+    text-decoration: overline;
+}
+
+.coroa{
+    background-color: blue;
+}
+
+.texto-desconto{
+    margin: 0;
 }

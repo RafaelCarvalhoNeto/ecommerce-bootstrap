@@ -8,7 +8,7 @@
 
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4">Profin dos selus</h1>
+                <h1 class="display-4">Quem somos!</h1>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio sint dolorum exercitationem a debitis facere! Voluptatibus minus quidem perspiciatis fuga harum ipsam ducimus distinctio odio, dolore et aut cumque ut?</p>
                 <hr>
             </div>
@@ -18,13 +18,13 @@
             <div class="col-12">
                 <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#nav-item-01" id="nav-pills-01" data-toggle="pill">Texto 1</a>
+                        <a class="nav-link active" href="#nav-item-01" id="nav-pills-01" data-toggle="pill">Nossos talentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nav-item-02" id="nav-pills-02" data-toggle="pill">Texto 2</a>
+                        <a class="nav-link" href="#nav-item-02" id="nav-pills-02" data-toggle="pill">Nossas estratégias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nav-item-03" id="nav-pills-03" data-toggle="pill">Texto 3</a>
+                        <a class="nav-link" href="#nav-item-03" id="nav-pills-03" data-toggle="pill">Nossas lojas</a>
                     </li>
                 </ul>
                 
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E_qtlSPJXf8"></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HEbqTvTolGU"></iframe>
                                 </div>
                             </div>
                             <div class="col-sm-5 d-flex align-items-center">
@@ -46,7 +46,7 @@
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rfWW1n84H_0"></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TfIj60UI9LE"></iframe>
                                 </div>
                             </div>
                             <div class="col-sm-5 d-flex align-items-center">
@@ -59,7 +59,7 @@
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2by_1X98ALQ"></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NxuXsIwofx8"></iframe>
                                 </div>
                             </div>
                             <div class="col-sm-5 d-flex align-items-center">

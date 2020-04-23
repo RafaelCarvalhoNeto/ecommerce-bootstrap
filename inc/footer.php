@@ -48,13 +48,13 @@
                   <label class="form-check-label" for="aceite">Estou de acordo com os termos, pode vender meus dados!</label>
                 </div>
                 <div class="form-group col-auto clearfix px-0">
-                  <button type="submit" class="btn btn-info float-right ml-2">Logar</button>
+                  <button type="submit" class="btn btn-primary float-right ml-2">Logar</button>
                   <button type="reset" class="btn btn-secondary float-right">Limpar</button>
                 </div>
               </form> 
             </div>
             <div class="modal-footer">
-                <small class="d-block w-100 text-muted">Ops! Ainda não tenho conta, quero <a href="#carouselModal" class="text-info" role="button" data-slide="next">me cadastrar</a>.</small>
+                <small class="d-block w-100 text-muted">Ops! Ainda não tenho conta, quero <a href="#carouselModal" class="text-primary" role="button" data-slide="next">me cadastrar</a>.</small>
               </a>
             </div>
           </div>
@@ -151,14 +151,14 @@
                 </div>
 
                 <div class="form-group col-auto clearfix px-0">
-                  <button type="submit" class="btn btn-info float-right ml-2">Logar</button>
+                  <button type="submit" class="btn btn-primary float-right ml-2">Logar</button>
                   <button type="reset" class="btn btn-secondary float-right">Limpar</button>
                 </div>
 
               </form> 
             </div>
             <div class="modal-footer">
-              <small class="d-block w-100 text-muted">Ops! Já tenho conta, quero <a href="#carouselModal" class="text-info" role="button" data-slide="prev">me logar</a>.</small></a>
+              <small class="d-block w-100 text-muted">Ops! Já tenho conta, quero <a href="#carouselModal" class="text-primary" role="button" data-slide="prev">me logar</a>.</small></a>
             </div>
           </div>
         </div>

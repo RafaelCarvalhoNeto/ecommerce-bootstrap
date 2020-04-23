@@ -1,87 +1,18 @@
-.bg-success{
-    background-color: #a5c15d;
-}
-/*
-h2::before{
-    content: "";
-    height: 45px;
-    width: 3px;
-    background-color: #fff;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 30px;
-    bottom: 0;
-}
-h2::after{
-    content: "";
-    height: 45px;
-    width: 3px;
-    background-color: #fff;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 30px;
-    bottom: 0;
-}*/
-
-.textcarro{
-    flex-direction: column;
-    justify-content: space-around;
-}
-.minicard{
-    height: 160px;
-}
-.minicard2{
-    order:1
-}
-.reducao2 img{
-    height: 425px;
-    width: 650px;
-}
-.borda{
-    margin-top: 58px;
-}
-.hist .alinha{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-}
-.scrollspySite {
-    position: relative;
-    overflow: auto;
-    height: 380px;
+.promo{
+    color: grey;
+    text-decoration: line-through;
 }
 
-.avancar{
-    transition: all 0.3s ease-in-out
+.coroa{
+    background-color: black;
+}
+.faixa-promo{
+    margin: 0;
 }
 
-.avancar:hover{
-    transform: scale(1.05);
-    box-shadow: #000;
-
-}
-
-i[class*="fa"] {
-    padding: 0 10px;
-    font-size: 0.9em;
-
-}
-.parafrafo{
-    border-radius: 10px 25px 10px 25px
-}
-.produto{
-    height: 500px;
-}
-
-a,
-/* Links ativos */
-a:active,
-/* Links quando passamos o mouse sobre eles */
-a:hover,
-/* E links já visitados */
-a:visited {
-    text-decoration: none;
-    /* Remove o underline padrão */
+.cart-qtd:after {
+    font-family: "Font Awesome 5 Pro";
+    content: ' \f00d';
+    font-weight: lighter;
+    font-size: .85em;
 }

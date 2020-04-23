@@ -3,6 +3,31 @@
 <!-- TRAZ O HEADER -->
 <?php require_once("./inc/header.php"); ?>
 
+<?php
+
+    $var = $_GET["var"];
+
+    $array=["vazio",
+    "Spot Popper - Esprema o nariz nojento",
+    "Urso Esqueleto - veja um urso por dentro",
+    "Pegador de salgados - O mais moderno no mundo",
+    "Avião da galáxia - Kit colecionador",
+    "Maiô Thanos do último filme",
+    "Máquina de lavar super potencia de jato de água",
+    "Fantasia de centauro egípcio para dedos",
+    "Metade de um copo de cerveja",
+    "Porta tacos de dinossauro - Um dos acessores mais úteis no seu dia",
+    "Travesseiro de pipoca - Melhor acompanhante para filmes",
+    "Travesseiro de pão - A coisa mais aleatória já inventada",
+    "Jogo da velha de papel higiência - Não inclui papel",
+    "Mini Trump - Boneco mais feio não tem - importado",
+    "Trump floral - Porque alguém inventaria um negócio desse?",
+    "Pen-drive burger, 8GB, 250GB RAM, 3 entradas USBs",
+    "Privada com neon azul - 300MW de potencia",
+    "Tampa de mostarda moleque nojento - saída única"];
+
+?>
+
 <section class="jumbotron jumbotron-fluid borda">
     <div class="container">
         <div class="row">
@@ -17,11 +42,12 @@
     <div class="row">
         <div class="col-md-5">
             <div>
-                <img class="d-block w-100 .produto" src="./assets/img/produto10.png" alt="">
+
+                <img class="d-block w-100 .produto" src="./assets/img/produto<?php echo $var?>.png" alt="">
             </div>
         </div>
         <div class="col-md-7 my-3">
-            <h2>Produto</h2>
+            <h2><?php echo $array[$var] ?></h2>
             <small>Indentificação do Produto</small>
             <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati in odit ratione recusandae excepturi voluptates blanditiis ex, iusto veniam voluptas asperiores, assumenda eos. Voluptate omnis deleniti repellendus velit necessitatibus qui!
             </p>
@@ -303,6 +329,24 @@
                                     </div>
                                 </a>
                             </div>
+
+                            <div class="col-sm-6 col-md-3">
+                                <a href="produto.php">
+                                    <div class="card mb-3 avancar">
+                                        <div class="card-img-top d-flex align-items-center justify-content-center p-4">
+                                            <img src="./assets/img/produto16.png" width=140px height=140px>  
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text descricao">Avião da galáxia - Kit colecionador</p>
+                                        </div>
+                                        <div class="card-footer d-flex flex-row justify-content-between">
+                                            <p class="preco">R$ 99,00</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
                         </div>
                     </div>
     
