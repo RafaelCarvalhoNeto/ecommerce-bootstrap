@@ -1,3 +1,4 @@
+<?php $tituloDaPagina = "Sobre" ?>
 <!-- TRAZ O HEAD -->
 <?php require_once("./inc/head.php"); ?>
 <!-- TRAZ O HEADER -->

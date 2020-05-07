@@ -6,6 +6,27 @@
 .bg-success{
     background-color: #a5c15d;
 }
+.bg-dark{
+    background-color: black !important;
+}
+.btn-outline-warning{
+    color: #feff02;
+    border-color: #feff02;
+}
+.btn-outline-warning:hover{
+    background-color: #feff02;
+    border-color: #feff02;
+}
+.arrendonar{
+    border-radius: 100px;
+}
+.buttonredondo{
+    background-color: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto -25px auto -25px;
+}
 /*
 h2::before{
     content: "";
@@ -57,7 +78,6 @@ h2::after{
     overflow: auto;
     height: 380px;
 }
-
 .avancar{
     transition: all 0.3s ease-in-out
 }
@@ -125,11 +145,16 @@ a:visited {
     color: grey;
     text-decoration: overline;
 }
-
-.coroa{
-    background-color: blue;
-}
-
 .texto-desconto{
     margin: 0;
+}
+
+.search{
+    background-image: url(../img/lupa.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size:  20px;
+    background-position: right;
+    background-position-x: 2px;
+    width: 30px;
 }

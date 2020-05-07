@@ -1,9 +1,8 @@
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-            <a class="navbar-brand" href="index.php">
-                <img src="./assets/img/desLoja3.png" alt="Logo" width=30px height=30px>
-                desLoja
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark black fixed-top">
+            <a class="navbar-brand ml-3" href="index.php">
+                <img src="./assets/img/logotodapng.png" alt="Logo" width=100px height=30px>
             </a>
 
 
@@ -33,15 +32,20 @@
 
                 </ul>
                 <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    <div class="input-group">
+                        <input class="form-control border-0" type="search" placeholder="Busca" aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="search btn" type="submit"></button>
+                        </div>
+                        
+                    </div>
                 </form>
                 <ul class="navbar-nav ml-2">
                      <li class="nav-item">
-                        <a class="btn btn-secondary mr-2" href="carrinho.php"><i class="fas fa-shopping-cart"></i>Carrinho</a>
+                        <a class="btn btn-outline-warning mr-2 arrendonar" href="carrinho.php"><i class="fas fa-shopping-cart"></i>Carrinho</a>
                     </li>
                     <li class="nav-item mr-sm-2">
-                        <a class="btn btn-light" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+                        <a class="btn btn-outline-warning arrendonar" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
                     </li>
                 </ul>
 
