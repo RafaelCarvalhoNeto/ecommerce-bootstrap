@@ -2,7 +2,13 @@
     "usuarios": [{
         "nome": "Testando",
         "sobrenome": "testando 123",
+        "endereco": "rua 11",
+        "cidade": "Pereirinha",
+        "cep": "65430-300",
+        "uf": "MA",
         "email": "testando@gmail.com",
-        "senha": "$2y$10$gj21BbeclnDrz4eFAIcFM.TEhp5xmgrGM\/dyF\/zQJQtyJc2m34Mq."
+        "senha": "$2y$10$gj21BbeclnDrz4eFAIcFM.TEhp5xmgrGM\/dyF\/zQJQtyJc2m34Mq.",
+        "confirma": "12123123",
+        "aceita": "on"
     }]
 }

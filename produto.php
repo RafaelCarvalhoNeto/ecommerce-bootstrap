@@ -52,7 +52,7 @@
             <small>Indentificação do Produto</small>
             <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati in odit ratione recusandae excepturi voluptates blanditiis ex, iusto veniam voluptas asperiores, assumenda eos. Voluptate omnis deleniti repellendus velit necessitatibus qui!
             </p>
-            <form action="#" method="POST" id="formComprar">
+            <form action="#" method="GET" id="formComprar">
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="inputTamanho">Tamanho</label>

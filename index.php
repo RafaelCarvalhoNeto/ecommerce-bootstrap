@@ -111,7 +111,7 @@
     <!--ROTEIROS-->
     <section class="row ml-5 mr-5 align-items-center justify-content-center">
             
-        <h2 class="col-12 p-3 mt-4 mb-3 border-bottom">produtos</h2>
+        <h2 class="col-12 p-3 mt-4 mb-3 border-bottom font-weight-bold">produtos</h2>
         
         <div id="carrosselRoteiros" class="carousel slide" data-ride="carousel">
 
@@ -249,10 +249,10 @@
 
     <!--PROMOÇÕES-->
     <section id="catY" class="row ml-5 mr-5">
-        <h2 class="col-12 p-3 mt-4 mb-3 text-dark border-bottom">promoções</h2>
+        <h2 class="col-12 p-3 mt-4 mb-3 text-dark border-bottom font-weight-bold">promoções</h2>
         <div class="row">
             <div class="col-sm-6 col-md-3">
-                <div class="card avancar">
+                <div class="card mb-3 avancar">
                     <a href="produto.php?var=5">
                         <div class="card-header bg-success text-white text-center">
                             <p class="faixa-promo">Promoção</p>
@@ -269,7 +269,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
-                <div class="card avancar">
+                <div class="card mb-3 avancar">
                     <a href="produto.php?var=6">
                         <div class="card-header bg-danger text-white text-center">
                             <p class="faixa-promo">5% de Desconto</p>
@@ -286,7 +286,7 @@
                 </div>
             </div>   
             <div class="col-sm-6 col-md-3">
-                <div class="card avancar">
+                <div class="card mb-3 avancar">
                     <a href="produto.php?var=7">
                         <div class="card-header bg-warning text-white text-center">
                             <p class="faixa-promo">Frete Grátis</p>
@@ -303,7 +303,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
-                <div class="card avancar">
+                <div class="card mb-3 avancar">
                     <a href="produto.php?var=8">
                         <div class="card-header bg-info text-white text-center">
                             <p class="faixa-promo">Exclusivo</p>
@@ -324,7 +324,7 @@
 
     <!--OFERTAS-->
     <section class="row ml-5 mr-5">
-        <h2 class="col-12 p-3 mt-4 mb-3 text-dark border-bottom">ofertas</h2>
+        <h2 class="col-12 p-3 mt-4 mb-3 text-dark border-bottom font-weight-bold">ofertas</h2>
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="row bg-info text-dark m-0 mb-3 avancar" style="align-items:center">

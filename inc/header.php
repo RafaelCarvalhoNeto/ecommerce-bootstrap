@@ -1,7 +1,7 @@
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark black fixed-top">
-            <a class="navbar-brand ml-3" href="index.php">
+        <nav class="pr-5 pl-5 navbar navbar-expand-md navbar-dark bg-dark black fixed-top">
+            <a class="navbar-brand ml-5" href="index.php">
                 <img src="./assets/img/logotodapng.png" alt="Logo" width=100px height=30px>
             </a>
 
@@ -9,7 +9,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse mr-5" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Início <span class="sr-only">(current)</span></a>
@@ -41,11 +41,14 @@
                     </div>
                 </form>
                 <ul class="navbar-nav ml-2">
-                     <li class="nav-item">
-                        <a class="btn btn-outline-warning mr-2 arrendonar" href="carrinho.php"><i class="fas fa-shopping-cart"></i>Carrinho</a>
-                    </li>
                     <li class="nav-item mr-sm-2">
-                        <a class="btn btn-outline-warning arrendonar" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+                        <a class="d-flex flex-column" href="#" data-toggle="modal" data-target="#modalLogin">
+                            <small class="login m-0">Olá, faça seu login</small>
+                            <small class="login m-0">ou cadastre-se</small>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="btn btn-outline-warning mr-2 arrendonar" href="carrinho.php"><i class="fas fa-shopping-cart"></i></a>
                     </li>
                 </ul>
 
